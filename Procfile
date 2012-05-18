@@ -1,1 +1,1 @@
-web: bundle exec rackup config.ru -s thin -p 3000
+web: bundle exec unicorn_rails -c config/unicorn.conf.rb

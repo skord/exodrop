@@ -1,7 +1,8 @@
 Exodrop::Application.routes.draw do
   get "home/index"
+  resources :assets, :only => [:index, :create, :destroy, :show]
 
-  root :to => 'home#index'
+  root :to => 'assets#index'
 
   # The priority is based upon order of creation:
   # first created -> highest priority.

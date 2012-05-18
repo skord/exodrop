@@ -10,4 +10,9 @@
  *
  *= require_self
  *= require_tree .
+ *= require twitter/bootstrap
+ *= require jquery_fileupload/jquery.fileupload-ui
 */
+body {
+	padding-top: 60px;
+}
